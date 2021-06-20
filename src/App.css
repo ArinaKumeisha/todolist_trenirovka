@@ -1,0 +1,36 @@
+.App {
+  padding: 30px;
+  display: flex;
+}
+
+.App > div {
+  margin-right: 50px;
+}
+
+.errorFind{
+  color: red;
+
+}
+.classAll {
+  background: gold;
+}
+.classActive{
+  background: blue;
+}
+
+.classCompleted{
+  background: orange;
+}
+
+.is-done {
+  color: darkblue;
+  opacity: 0.5;
+}
+.isNotDone{
+  color: darkviolet;
+
+}
+
+.error {
+border: 2px solid red;
+}
