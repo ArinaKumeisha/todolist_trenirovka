@@ -39,7 +39,7 @@ function AddItemForm(props: AddItemPropsType) {
                 value={title}
                 onChange={changeTitle}
                 onKeyPress={onKeyPressHandler}
-                error={!!error}
+                error={!!error}   //ошибка
              helperText={error}
             />
 
